@@ -4,7 +4,7 @@ In this repository, I uploaded my Note taking application which i created using 
 ## Instructions
 
 ### Step 1
-Download the repository and install MongoDB and NodeJS from the setup folder.
+Download the repository and install MongoDB from [here](https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-4.0.9-signed.msi) and NodeJS from the setup folder.
 
 ### Step 2
 Create a Database named NoteDB in MongoDB from the MongoDB compass application and create a collection named notes.

@@ -1,0 +1,32 @@
+<h3 align="center">Notes</h3>
+<table class="table table-striped">
+    <thead align="center">
+        <tr>
+            <th>Note Title</th>
+            <th>Note Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        {{#each list}}
+            <tr>
+                <td>{{this.noteTitle}}</td>
+                <td>{{this.noteDate}}</td>
+                <td>
+                    <a href="/note/{{this._id}}"><i class="fa fa-pencil" aria-hidden="true"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="/note/delete/{{this._id}}">
+                        <i class="fa fa-minus" aria-hidden="true"></i>
+                    </a>
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+<h2 align="center">
+    <a class="btn btn-info" href="/note">
+        <i class="fa fa-plus"></i> Add Note
+    </a>
+</h2>
